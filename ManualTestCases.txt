@@ -1,0 +1,35 @@
+Test Case 1(Test cases are written in format of BDD)
+Scenario : To verify user is able to search when entered valid movie/serial name
+Given user is on IMDB page
+When User enters valid search
+Then the search results must display valid result
+
+
+Scenario : To verify when user enters only alphanumberic(invalid data) then no search is displayed
+Given when User is on IMDB page
+When user enters invalid data like complete alphanumric
+Then the search result should be blank
+
+
+Scenario : To verify search suggestion is constantly updated when user is entering valid data and finally proper result is displayed when complete data is entered
+Given the user is on IMDB page
+When user enters valid search
+Then for each letter entered valid search results are updated in the suggestion and when user completes entering then valid search is displayed
+
+
+Scenario : To verify when user clicks on search previously entered search is displayed in the suggestion
+Given user is on IMDB page
+When user clicks on search button
+And previously entered search data is displayed
+When user clears the history of the page
+And clicks on search button
+Then search suggestion is not updated
+
+Scenario : To verify previously entered search data is present when user navigates back from browser button and comes back to the app
+Given user is on IMDB application
+And entered search
+And navigated back through browser back window
+And again user navigates back to IMDB site
+Then the search entered must be displayed
+
+Scenario : When user clears the history of the page then there is no search suggestion present
