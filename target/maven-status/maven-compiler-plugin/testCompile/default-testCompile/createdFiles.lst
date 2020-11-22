@@ -1,0 +1,6 @@
+stepDefinations/LoginSteps.class
+testRunners/IMDBRunner.class
+stepDefinations/MenuPageSteps.class
+stepDefinations/VideoDetailSteps.class
+stepDefinations/BaseSteps.class
+stepDefinations/SignUpSteps.class
