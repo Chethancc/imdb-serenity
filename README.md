@@ -3,3 +3,5 @@ This project is built on Intellij idea .
 Please install CSV plugin , because data reading is from CSV file
 The project is tested in Mac Os, have added support for Windows as well but not tested
 For Manual testCases please refer test cases in ManualTestCases.txt
+
+To run the test cases either run single scenario or feature file or IMBD runner in testRunner package

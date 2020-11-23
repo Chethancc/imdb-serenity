@@ -1,5 +1,7 @@
 Feature: To create new User and test login for the new user created
 
+#  Since the application asks for captcha automated till that part , inorder to test login just used already present account
+#  In order to check the data please check src/main/resources/testData.csv
   Scenario:To Signup and Create New Account
     Given User is on IMDB webpage
     And user Clicks on Signin Link
